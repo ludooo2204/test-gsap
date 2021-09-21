@@ -110,7 +110,10 @@ align-items: center;
     const yeux=document.querySelector('#Group4')
     const container=document.querySelector('.calysContainer')
     const valeur=document.querySelector('.valeur')
-    TL.to(valeur, {duration:1.5,x:600,y:-200,rotate:20,opacity:0,transformOrigin:"center center",ease:"back-in(1.7)"})    // TL.to(yeux, {duration:0.05,scale:1,transformOrigin:"center center",ease:Back.easeOut.config(2.7)})
+    // TL.to(container, {duration:0.01,scale:1.05,transformOrigin:"center center"})    
+    TL.to(valeur, {duration:1.5,x:600,y:-200,rotate:20,opacity:0,transformOrigin:"center center",ease:"back-in(1.7)",delay:0.8})    
+
+    // TL.to(container, {duration:0.01,scale:1,transformOrigin:"center center",delay:0.5})    
     // TL.to(yeux, {duration:0.3,scale:1})
 //     container.addEventListener('mouseover',()=>{
 // console.log("object")
